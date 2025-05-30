@@ -1,5 +1,5 @@
 // SortingUtil.java
-package com.lecture.sorting.utils;
+package sorting.utils;
 
 import java.util.Random;
 

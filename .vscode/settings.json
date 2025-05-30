@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "resources/opencsv-5.5.2.jar",
+        "resources/commons-lang3-3.12.0.jar"
+    ]
+}

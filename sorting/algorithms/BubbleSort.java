@@ -1,6 +1,6 @@
-package com.lecture.sorting.algorithms;
+package sorting.algorithms;
 
-public class BubbleSort {
+public class BubbleSort  {
     public void sort(int[] array) {
         int n = array.length;
         boolean swapped;

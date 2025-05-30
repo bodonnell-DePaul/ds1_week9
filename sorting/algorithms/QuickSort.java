@@ -1,4 +1,4 @@
-package com.lecture.sorting.algorithms;
+package sorting.algorithms;
 public class QuickSort {
 
     public void sort(int[] array) {

@@ -1,6 +1,8 @@
-package com.lecture.sorting.utils;
+package sorting.utils;
 import java.util.Arrays;
 import java.util.Random;
+
+import sorting.algorithms.*;
 
 public class PerformanceAnalyzer {
 
@@ -23,13 +25,13 @@ public class PerformanceAnalyzer {
         System.out.println("Performance Analysis of Sorting Algorithms:");
 
         System.out.println("\nBubble Sort:");
-        analyzeSortPerformance(new BubbleSort(), Arrays.copyOf(sampleData, sampleData.length));
+        analyzeSortPerformance((SortingAlgorithm) new BubbleSort(), Arrays.copyOf(sampleData, sampleData.length));
 
         System.out.println("\nHeap Sort:");
-        analyzeSortPerformance(new HeapSort(), Arrays.copyOf(sampleData, sampleData.length));
+        analyzeSortPerformance((SortingAlgorithm) new HeapSort(), Arrays.copyOf(sampleData, sampleData.length));
 
         System.out.println("\nQuick Sort:");
-        analyzeSortPerformance(new QuickSort(), Arrays.copyOf(sampleData, sampleData.length));
+        analyzeSortPerformance((SortingAlgorithm) new QuickSort(), Arrays.copyOf(sampleData, sampleData.length));
     }
 }
 

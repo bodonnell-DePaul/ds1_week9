@@ -1,8 +1,8 @@
-package com.lecture.sorting.examples;
-import com.lecture.sorting.algorithms.BubbleSort;
-import com.lecture.sorting.algorithms.HeapSort;
-import com.lecture.sorting.algorithms.QuickSort;
-import com.lecture.sorting.utils.SortingUtil;
+package sorting.examples;
+import sorting.algorithms.BubbleSort;
+import sorting.algorithms.HeapSort;
+import sorting.algorithms.QuickSort;
+import sorting.utils.SortingUtil;
 
 public class SortingExamples {
     public static void main(String[] args) {

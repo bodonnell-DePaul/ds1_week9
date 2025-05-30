@@ -1,3 +1,4 @@
+package com.lecture.sorting.utils;
 import java.util.Arrays;
 import java.util.Random;
 

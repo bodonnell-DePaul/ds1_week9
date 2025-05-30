@@ -1,9 +1,17 @@
+package com.lecture.sorting;
+
 public class Main {
     public static void main(String[] args) {
         // Example usage of sorting algorithms
         int[] bubbleSortArray = {64, 34, 25, 12, 22, 11, 90};
         int[] heapSortArray = {64, 34, 25, 12, 22, 11, 90};
         int[] quickSortArray = {64, 34, 25, 12, 22, 11, 90};
+
+        Random random = new Random();
+        int[] sampleData = new int[1000]; // larger array for better performance testing
+        for (int i = 0; i < sampleData.length; i++) {
+            sampleData[i] = random.nextInt(1000); // random numbers 0-999
+        }
 
         // Bubble Sort
         System.out.println("Original array for Bubble Sort:");

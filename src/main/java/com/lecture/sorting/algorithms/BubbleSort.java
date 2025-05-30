@@ -1,3 +1,5 @@
+package com.lecture.sorting.algorithms;
+
 public class BubbleSort {
     public void sort(int[] array) {
         int n = array.length;

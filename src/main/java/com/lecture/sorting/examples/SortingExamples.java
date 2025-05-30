@@ -1,3 +1,4 @@
+package com.lecture.sorting.examples;
 import com.lecture.sorting.algorithms.BubbleSort;
 import com.lecture.sorting.algorithms.HeapSort;
 import com.lecture.sorting.algorithms.QuickSort;

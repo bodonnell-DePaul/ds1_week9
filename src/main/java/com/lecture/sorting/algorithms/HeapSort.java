@@ -1,3 +1,5 @@
+
+package com.lecture.sorting.algorithms;
 public class HeapSort {
 
     public void sort(int[] array) {
